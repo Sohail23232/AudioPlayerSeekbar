@@ -83,7 +83,7 @@ currentPlayIndex=model.id
         binding.txtSongName.text=model.songName
         binding.imgSong.setImageResource(model.song_thumb)
     }
-
+//
     override fun onDestroy() {
             super.onDestroy()
        mp.stop()
